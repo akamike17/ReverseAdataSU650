@@ -1,0 +1,49 @@
+{
+  "generated_utc": "2026-09-22T16:29:44.700731+00:00",
+  "target": {
+    "device": "ADATA SU650 120GB",
+    "controller": "SM2258XT",
+    "bus": "SATA",
+    "status": "CONFIRMED (per project scope)"
+  },
+  "downloadmpisp_caller": {
+    "status": "CONFIRMED",
+    "slot": "0x507f70",
+    "call_sites": [
+      {
+        "site_rva": 15855,
+        "site_va": 4210159,
+        "text": "call dword ptr [0x507f70]"
+      },
+      {
+        "site_rva": 250885,
+        "site_va": 4445189,
+        "text": "call dword ptr [0x507f70]"
+      },
+      {
+        "site_rva": 264696,
+        "site_va": 4459000,
+        "text": "call dword ptr [0x507f70]"
+      }
+    ]
+  },
+  "calling_convention": {
+    "status": "OBSERVED",
+    "note": "cdecl per add esp,N after calls; arg count pending dynamic capture"
+  },
+  "cdb_0xE0": {
+    "status": "HYPOTHESIS",
+    "note": "candidate byte pattern near DeviceIoControl sites; NOT proven ROM-entry"
+  },
+  "runmode_5": {
+    "status": "UNKNOWN",
+    "note": "observed on hardware; meaning not traced in this run"
+  },
+  "flashid_zeros": {
+    "status": "UNKNOWN"
+  },
+  "dynamic_phases_G_to_I": {
+    "status": "NOT RUN",
+    "reason": "require live drive + debugger capture; script is static-only"
+  }
+}

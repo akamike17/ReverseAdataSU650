@@ -1,0 +1,623 @@
+[
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3CA1C",
+    "rva": 248351,
+    "text": "add ebx, dword ptr [eax + 4]",
+    "base_reg": "eax",
+    "offset": 4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3CA1C",
+    "rva": 248354,
+    "text": "mov dword ptr [ebx + 8], eax",
+    "base_reg": "ebx",
+    "offset": 8,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3CA1C",
+    "rva": 248361,
+    "text": "mov dword ptr [ebx + 0xc], eax",
+    "base_reg": "ebx",
+    "offset": 12,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3CA1C",
+    "rva": 248364,
+    "text": "mov dword ptr [ebx + 4], 0x43ca63",
+    "base_reg": "ebx",
+    "offset": 4,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3CA1C",
+    "rva": 248371,
+    "text": "mov word ptr [ebx + 0x10], 0",
+    "base_reg": "ebx",
+    "offset": 16,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3CA1C",
+    "rva": 248377,
+    "text": "mov word ptr [ebx + 0x12], 0",
+    "base_reg": "ebx",
+    "offset": 18,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3CA1C",
+    "rva": 248383,
+    "text": "mov dword ptr [ebx + 0x1c], 0",
+    "base_reg": "ebx",
+    "offset": 28,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A2D0",
+    "rva": 238299,
+    "text": "cmp cl, byte ptr [edx + 1]",
+    "base_reg": "edx",
+    "offset": 1,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A2D0",
+    "rva": 238304,
+    "text": "cmp cl, byte ptr [edx + 2]",
+    "base_reg": "edx",
+    "offset": 2,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A2D0",
+    "rva": 238309,
+    "text": "cmp cl, byte ptr [edx + 3]",
+    "base_reg": "edx",
+    "offset": 3,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_B178",
+    "rva": 45503,
+    "text": "cmp dword ptr [ecx + 4], 0",
+    "base_reg": "ecx",
+    "offset": 4,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_B178",
+    "rva": 45592,
+    "text": "push dword ptr [eax + 4]",
+    "base_reg": "eax",
+    "offset": 4,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_B178",
+    "rva": 45602,
+    "text": "push dword ptr [ecx + 4]",
+    "base_reg": "ecx",
+    "offset": 4,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_B178",
+    "rva": 45621,
+    "text": "mov dword ptr [edx + 4], 1",
+    "base_reg": "edx",
+    "offset": 4,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_B178",
+    "rva": 45713,
+    "text": "push dword ptr [ecx + 4]",
+    "base_reg": "ecx",
+    "offset": 4,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_B178",
+    "rva": 45723,
+    "text": "push dword ptr [edx + 4]",
+    "base_reg": "edx",
+    "offset": 4,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_B178",
+    "rva": 45750,
+    "text": "add dword ptr [ecx + 4], eax",
+    "base_reg": "ecx",
+    "offset": 4,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A14C",
+    "rva": 237904,
+    "text": "mov ecx, dword ptr [edx - 8]",
+    "base_reg": "edx",
+    "offset": -8,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A14C",
+    "rva": 237912,
+    "text": "mov eax, dword ptr [edx - 4]",
+    "base_reg": "edx",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A14C",
+    "rva": 237924,
+    "text": "mov ecx, dword ptr [eax - 4]",
+    "base_reg": "eax",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A14C",
+    "rva": 237936,
+    "text": "lock inc dword ptr [edx - 8]",
+    "base_reg": "edx",
+    "offset": -8,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A14C",
+    "rva": 237946,
+    "text": "mov ecx, dword ptr [edx - 8]",
+    "base_reg": "edx",
+    "offset": -8,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A14C",
+    "rva": 237952,
+    "text": "lock dec dword ptr [edx - 8]",
+    "base_reg": "edx",
+    "offset": -8,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A14C",
+    "rva": 237958,
+    "text": "lea eax, [edx - 8]",
+    "base_reg": "edx",
+    "offset": -8,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A0F8",
+    "rva": 237828,
+    "text": "mov ecx, dword ptr [edx - 8]",
+    "base_reg": "edx",
+    "offset": -8,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A0F8",
+    "rva": 237834,
+    "text": "lock dec dword ptr [edx - 8]",
+    "base_reg": "edx",
+    "offset": -8,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A0F8",
+    "rva": 237841,
+    "text": "lea eax, [edx - 8]",
+    "base_reg": "edx",
+    "offset": -8,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281415,
+    "text": "cmp dword ptr [eax + 8], 0",
+    "base_reg": "eax",
+    "offset": 8,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281452,
+    "text": "mov ebx, dword ptr [eax + 8]",
+    "base_reg": "eax",
+    "offset": 8,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281465,
+    "text": "mov dword ptr [eax + 8], edx",
+    "base_reg": "eax",
+    "offset": 8,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281471,
+    "text": "mov eax, dword ptr [ebx + 0x28]",
+    "base_reg": "ebx",
+    "offset": 40,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281510,
+    "text": "cmp esi, dword ptr [ebx + 0x28]",
+    "base_reg": "ebx",
+    "offset": 40,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281544,
+    "text": "movzx edx, word ptr [eax + 0x10]",
+    "base_reg": "eax",
+    "offset": 16,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281548,
+    "text": "mov eax, dword ptr [ecx + 8]",
+    "base_reg": "ecx",
+    "offset": 8,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281558,
+    "text": "mov word ptr [ecx + 0x10], dx",
+    "base_reg": "ecx",
+    "offset": 16,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281570,
+    "text": "call dword ptr [ebx + 0x1c]",
+    "base_reg": "ebx",
+    "offset": 28,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_44B30",
+    "rva": 281616,
+    "text": "mov edx, dword ptr [edx + 0xc]",
+    "base_reg": "edx",
+    "offset": 12,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A370",
+    "rva": 238469,
+    "text": "mov edi, dword ptr [ecx - 4]",
+    "base_reg": "ecx",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A370",
+    "rva": 238472,
+    "text": "mov edx, dword ptr [esi - 4]",
+    "base_reg": "esi",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A370",
+    "rva": 238488,
+    "text": "mov ecx, dword ptr [esi - 4]",
+    "base_reg": "esi",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_674C",
+    "rva": 26468,
+    "text": "mov eax, dword ptr [eax + 8]",
+    "base_reg": "eax",
+    "offset": 8,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_CF98",
+    "rva": 53359,
+    "text": "mov dl, byte ptr [eax + 0x210]",
+    "base_reg": "eax",
+    "offset": 528,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_2300",
+    "rva": 9095,
+    "text": "mov byte ptr [ecx + 1], 4",
+    "base_reg": "ecx",
+    "offset": 1,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_2300",
+    "rva": 9327,
+    "text": "mov byte ptr [eax + 0x210], dl",
+    "base_reg": "eax",
+    "offset": 528,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_B104",
+    "rva": 45356,
+    "text": "cmp byte ptr [ecx + 1], 0",
+    "base_reg": "ecx",
+    "offset": 1,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_B104",
+    "rva": 45380,
+    "text": "mov byte ptr [edx + 1], cl",
+    "base_reg": "edx",
+    "offset": 1,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A3B4",
+    "rva": 238558,
+    "text": "mov eax, dword ptr [ebx - 4]",
+    "base_reg": "ebx",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A3B4",
+    "rva": 238561,
+    "text": "add eax, dword ptr [esi - 4]",
+    "base_reg": "esi",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A3B4",
+    "rva": 238575,
+    "text": "mov ecx, dword ptr [ebx - 4]",
+    "base_reg": "ebx",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A3B4",
+    "rva": 238587,
+    "text": "mov ecx, dword ptr [esi - 4]",
+    "base_reg": "esi",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A3B4",
+    "rva": 238590,
+    "text": "add edx, dword ptr [ebx - 4]",
+    "base_reg": "ebx",
+    "offset": -4,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_3A3B4",
+    "rva": 238605,
+    "text": "dec dword ptr [edi - 8]",
+    "base_reg": "edi",
+    "offset": -8,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_24E0",
+    "rva": 9575,
+    "text": "mov byte ptr [ecx + 1], 0x2c",
+    "base_reg": "ecx",
+    "offset": 1,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_24E0",
+    "rva": 9585,
+    "text": "mov byte ptr [eax + 2], dl",
+    "base_reg": "eax",
+    "offset": 2,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287750,
+    "text": "and byte ptr fs:[ebx + 0x2b], al",
+    "base_reg": "ebx",
+    "offset": 43,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287763,
+    "text": "imul esp, dword ptr [edi + 0x68], 0x30322074",
+    "base_reg": "edi",
+    "offset": 104,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287772,
+    "text": "and byte ptr [edx + 0x6f], al",
+    "base_reg": "edx",
+    "offset": 111,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287779,
+    "text": "and byte ptr fs:[ebx + 0x6f], al",
+    "base_reg": "ebx",
+    "offset": 111,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287799,
+    "text": "add byte ptr [edx - 0x45ffbff0], bh",
+    "base_reg": "edx",
+    "offset": -1174388720,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287855,
+    "text": "add byte ptr [eax + 0x1400442d], al",
+    "base_reg": "eax",
+    "offset": 335561773,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287863,
+    "text": "add byte ptr [eax + 0x45b7], bh",
+    "base_reg": "eax",
+    "offset": 17847,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287883,
+    "text": "add byte ptr [esi + 0x6f], cl",
+    "base_reg": "esi",
+    "offset": 111,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287892,
+    "text": "and byte ptr fs:[ecx + eax*2 + 0x54], al",
+    "base_reg": "ecx",
+    "offset": 84,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287898,
+    "text": "and byte ptr [ebx + 0x65], dh",
+    "base_reg": "ebx",
+    "offset": 101,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287911,
+    "text": "imul esi, dword ptr [edx + 0x65], 0x61430064",
+    "base_reg": "edx",
+    "offset": 101,
+    "access": "READ"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287934,
+    "text": "and byte ptr gs:[ecx + 0x6e], ch",
+    "base_reg": "ecx",
+    "offset": 110,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287945,
+    "text": "and byte ptr [edi + 0x66], ch",
+    "base_reg": "edi",
+    "offset": 102,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287948,
+    "text": "and byte ptr [ecx + 0x20], ah",
+    "base_reg": "ecx",
+    "offset": 32,
+    "access": "WRITE"
+  },
+  {
+    "status": "HYPOTHESIS",
+    "function": "sub_462AE",
+    "rva": 287976,
+    "text": "add byte ptr [edi + 0x12], dl",
+    "base_reg": "edi",
+    "offset": 18,
+    "access": "WRITE"
+  }
+]

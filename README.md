@@ -1,9 +1,16 @@
 # SM2258XT SSD Firmware Reverse Engineering - Complete Documentation
 
 ## Project Overview
-Target: ADATA SU650 240GB/256GB SSD with SM2258XT controller
-Goal: Complete automated flash without JP2 hardware pin shorting
-Method: Static + Dynamic reverse engineering of SWPtest.dll
+Target: ADATA SU650 120GB SSD with SM2258XT controller (SATA, not USB)
+Goal: evidence-based reconstruction of the MPTool -> SWPtest.dll call path
+Status: STATIC analysis only; dynamic capture (callers, context) still OPEN
+
+NOTE: ForceROM/Program.cs was found to use IOCTL 0x4D112 which does NOT
+match the value observed in SWPtest.dll (0x4D030). It is QUARANTINED.
+
+Evidence classification: [CONFIRMED] static byte pattern or traced ref;
+[OBSERVED] real runtime value seen previously; [HYPOTHESIS] candidate
+not yet proven; [UNKNOWN] missing evidence.
 
 ## Architecture Analysis
 

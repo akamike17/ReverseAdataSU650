@@ -1,0 +1,68 @@
+{
+  "_SMIPtestDownloadMPISP": {
+    "status": "CONFIRMED",
+    "name": "_SMIPtestDownloadMPISP",
+    "ordinal": 16,
+    "rva": 31448,
+    "va": 4225752,
+    "file_offset": 28888,
+    "section": ".text",
+    "bytes_at_entry": "558bec83c4d4535657b850a64400e8314f0300c645d70066c745e80800ff7514",
+    "references": []
+  },
+  "_SMIPtestCheckRunMode": {
+    "status": "CONFIRMED",
+    "name": "_SMIPtestCheckRunMode",
+    "ordinal": 19,
+    "rva": 31876,
+    "va": 4226180,
+    "file_offset": 29316,
+    "section": ".text",
+    "bytes_at_entry": "558bec83c4d4535657b840a74400e8854d0300c645d70066c745e80800ff7510",
+    "references": []
+  },
+  "_SMIPtestDriveReset": {
+    "status": "CONFIRMED",
+    "name": "_SMIPtestDriveReset",
+    "ordinal": 20,
+    "rva": 32016,
+    "va": 4226320,
+    "file_offset": 29456,
+    "section": ".text",
+    "bytes_at_entry": "558bec83c4d4535657b890a74400e8f94c0300c645d70066c745e80800ff7510",
+    "references": []
+  },
+  "_SMIReadFlashID": {
+    "status": "CONFIRMED",
+    "name": "_SMIReadFlashID",
+    "ordinal": 6,
+    "rva": 28048,
+    "va": 4222352,
+    "file_offset": 25488,
+    "section": ".text",
+    "bytes_at_entry": "558bec81c4c8fdffff535657b8e89e4400e8765c030066c745dc08008d45fce8",
+    "references": []
+  },
+  "_SMIScanSMIDrive": {
+    "status": "CONFIRMED",
+    "name": "_SMIScanSMIDrive",
+    "ordinal": 3,
+    "rva": 27484,
+    "va": 4221788,
+    "file_offset": 24924,
+    "section": ".text",
+    "bytes_at_entry": "558bec83c4c8535657b8889d4400e8ad5e030066c745dc08008d45fce82fddff",
+    "references": []
+  },
+  "_SMISetPassThroughType": {
+    "status": "CONFIRMED",
+    "name": "_SMISetPassThroughType",
+    "ordinal": 2,
+    "rva": 27396,
+    "va": 4221700,
+    "file_offset": 24836,
+    "section": ".text",
+    "bytes_at_entry": "558bec83c4d8535657b8049d4400e8055f0300c645db0066c745ec08008a5508",
+    "references": []
+  }
+}

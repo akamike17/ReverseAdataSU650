@@ -130,7 +130,10 @@ class SWPtestAnalyzer:
     def find_sub_function(self, rva):
         """Find sub-function at given RVA"""
         # Look for function prologue pattern
-        code = self.text_data[rva_to_offset(rva):rva_to_offset(rva)+32]
+        off = self.rva_to_offset(rva)  # FIX: was bare `rva_to_offset(...)`
+        if off is None:
+            return False
+        code = self.text_data[off:off+32]
         for insn in self.md.disasm(code, self.image_base + rva):
             if insn.mnemonic == 'push' and 'ebp' in insn.op_str:
                 # Found it

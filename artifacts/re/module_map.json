@@ -1,0 +1,24 @@
+{
+  "status": "CONFIRMED",
+  "mptool": {
+    "path": "C:\\SM2258XT_MPTool\\SM2258XTMPToolQ0816A.exe",
+    "sha256": "1bcb55fdc7923eb5df78213973eaf0a71dba41008cb58c82c20724827180f567",
+    "bits": 32,
+    "image_base": "0x400000",
+    "sections": 5
+  },
+  "dll": {
+    "path": "C:\\SM2258XT_MPTool\\Dll\\SWPtest.dll",
+    "sha256": "a18fb2324b202e151db9112af3faddee838b6b911b70d83ed4c39a082f135aaf",
+    "bits": 32,
+    "image_base": "0x400000",
+    "sections": 7,
+    "export_count": 93
+  },
+  "dll_imports_summary": [
+    "ADVAPI32.DLL",
+    "KERNEL32.DLL",
+    "OLEAUT32.DLL",
+    "USER32.DLL"
+  ]
+}

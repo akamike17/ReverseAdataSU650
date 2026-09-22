@@ -1,0 +1,80 @@
+{
+  "_SMIPtestDownloadMPISP": {
+    "status": "CONFIRMED",
+    "slot": "0x507f70",
+    "call_sites": [
+      {
+        "site_rva": 15855,
+        "site_va": 4210159,
+        "text": "call dword ptr [0x507f70]"
+      },
+      {
+        "site_rva": 250885,
+        "site_va": 4445189,
+        "text": "call dword ptr [0x507f70]"
+      },
+      {
+        "site_rva": 264696,
+        "site_va": 4459000,
+        "text": "call dword ptr [0x507f70]"
+      }
+    ]
+  },
+  "_SMIPtestCheckRunMode": {
+    "status": "OBSERVED",
+    "slot": "0x507f74",
+    "call_sites": []
+  },
+  "_SMIPtestDriveReset": {
+    "status": "CONFIRMED",
+    "slot": "0x507f7c",
+    "call_sites": [
+      {
+        "site_rva": 15186,
+        "site_va": 4209490,
+        "text": "call dword ptr [0x507f7c]"
+      },
+      {
+        "site_rva": 247482,
+        "site_va": 4441786,
+        "text": "call dword ptr [0x507f7c]"
+      },
+      {
+        "site_rva": 265637,
+        "site_va": 4459941,
+        "text": "call dword ptr [0x507f7c]"
+      }
+    ]
+  },
+  "_SMIReadFlashID": {
+    "status": "OBSERVED",
+    "slot": "0x507f98",
+    "call_sites": []
+  },
+  "_SMIScanSMIDrive": {
+    "status": "OBSERVED",
+    "slot": "0x507fa0",
+    "call_sites": []
+  },
+  "_SMISetPassThroughType": {
+    "status": "CONFIRMED",
+    "slot": "0x507fa4",
+    "call_sites": [
+      {
+        "site_rva": 239613,
+        "site_va": 4433917,
+        "text": "call dword ptr [0x507fa4]"
+      },
+      {
+        "site_rva": 239635,
+        "site_va": 4433939,
+        "text": "call dword ptr [0x507fa4]"
+      },
+      {
+        "site_rva": 239648,
+        "site_va": 4433952,
+        "text": "call dword ptr [0x507fa4]"
+      }
+    ]
+  }
+}

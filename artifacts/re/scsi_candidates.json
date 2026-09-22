@@ -1,0 +1,52 @@
+{
+  "deviceiocontrol_sites": [
+    {
+      "site_rva": 5791,
+      "thunk_rva": 287220,
+      "ioctl": "0x4d014",
+      "ioctl_class": "IOCTL_SCSI_PASS_THROUGH (0x4D014)",
+      "pushed_args": [
+        "dword ptr [mem:0x0]",
+        "0x4d014",
+        "dword ptr [mem:0xc]",
+        "reg:eax",
+        "dword ptr [mem:0xc]",
+        "reg:ecx",
+        "reg:edx",
+        "0x0"
+      ]
+    },
+    {
+      "site_rva": 6168,
+      "thunk_rva": 287220,
+      "ioctl": "0x4d030",
+      "ioctl_class": "IOCTL_SCSI_PASS_THROUGH_DIRECT (0x4D030)",
+      "pushed_args": [
+        "dword ptr [mem:0x0]",
+        "0x4d030",
+        "reg:edx",
+        "0x28",
+        "reg:eax",
+        "0x28",
+        "reg:ecx",
+        "0x0"
+      ]
+    }
+  ],
+  "cdb_candidates": [
+    {
+      "near_site_rva": "0x169f",
+      "candidate_file_offset": "0xb4b",
+      "cdb_hex": "00000000000000000000000000558bec",
+      "status": "HYPOTHESIS",
+      "note": "byte pattern near DeviceIoControl caller; not yet traced to a live call"
+    },
+    {
+      "near_site_rva": "0x1818",
+      "candidate_file_offset": "0xb4b",
+      "cdb_hex": "00000000000000000000000000558bec",
+      "status": "HYPOTHESIS",
+      "note": "byte pattern near DeviceIoControl caller; not yet traced to a live call"
+    }
+  ]
+}
