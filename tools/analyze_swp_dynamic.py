@@ -51,11 +51,28 @@ def main():
                     help="Context dump size for the (not-yet-run) dynamic phase")
     ap.add_argument("--self-test", action="store_true",
                     help="Import-check all modules and exit")
+    ap.add_argument("--dynamic", action="store_true",
+                    help="Run Frida-based dynamic capture (requires live MPTool GUI interaction)")
+    ap.add_argument("--seconds", type=int, default=60,
+                    help="Seconds to capture in --dynamic mode")
     args = ap.parse_args()
 
     if args.self_test:
         # imports happened at module load; if we got here they resolved
         print("self-test OK: pefile, capstone, re.{pe,exports,calls,exe_resolver,context,scsi}")
+        return 0
+
+    if args.dynamic:
+        from relib.dynamic import run_capture
+        mptool = args.mptool
+        if not mptool:
+            cands, _ = find_candidates(Path(__file__).resolve().parent.parent)
+            if len(cands) != 1:
+                print(f"[ERROR] ambiguous MPTool candidates: {cands}")
+                return 2
+            mptool = str(cands[0])
+        out = Path(args.output) if args.output else "artifacts/re/runtime"
+        run_capture(mptool, out, duration=args.seconds)
         return 0
 
     project_root = Path(__file__).resolve().parent.parent
