@@ -1,0 +1,43 @@
+SWPtest.dll Analysis Results
+======================================================================
+
+
+_SMIPtestDownloadMPISP:
+  RVA: 0x00007AD8
+  Size: 143 bytes
+
+_SMIPtestCheckRunMode:
+  RVA: 0x00007C84
+  Size: 138 bytes
+
+_SMIPtestDriveReset:
+  RVA: 0x00007D10
+  Size: 139 bytes
+
+_SMIReadFlashID:
+  RVA: 0x00006D90
+  Size: 288 bytes
+
+_SMIScanSMIDrive:
+  RVA: 0x00006B5C
+  Size: 274 bytes
+
+_SMISetPassThroughType:
+  RVA: 0x00006B04
+  Size: 85 bytes
+
+_SMIPtestDownloadISP:
+  RVA: 0x000077E0
+  Size: 401 bytes
+
+_SMIPtestLoadDgISP:
+  RVA: 0x00009C28
+  Size: 142 bytes
+
+_SMIPtestEraseAll:
+  RVA: 0x000080FC
+  Size: 1157 bytes
+
+_SMIPtestProgramDummyAll:
+  RVA: 0x00008584
+  Size: 856 bytes

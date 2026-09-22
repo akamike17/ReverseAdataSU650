@@ -1,0 +1,56 @@
+# X32DBG CLI - Stop at DownloadMPISP and wait
+# This script is designed to PAUSE at the breakpoint and WAIT for inspection
+# After inspection, use 'quit' to exit
+
+# Open log file
+logOpen "C:\SM2258XT_MPTool\log\mpisp_capture.log"
+log "=== MPISP Capture Started ==="
+
+# Load target
+load "C:\SM2258XT_MPTool\SM2258XTMPToolQ0816A.exe"
+log "Target loaded"
+
+# Wait for system entry breakpoint
+entry
+log "At system entry breakpoint"
+
+# Set module load breakpoint for SWPtest
+bpdll "SWPtest.dll"
+log "DLL load breakpoint set for SWPtest.dll"
+
+# Run until SWPtest.dll loads
+run
+# Execution will pause here when SWPtest.dll is loaded
+log "SWPtest.dll should be loaded now"
+
+# Get module info (this shows in log)
+mod
+log "Module listing above"
+
+# Now try to set breakpoint on DownloadMPISP
+# Try multiple addressing methods
+bp "_SMIPtestDownloadMPISP"
+bp "SWPtest._SMIPtestDownloadMPISP"
+bp "SWPtest:_SMIPtestDownloadMPISP"
+
+log "Breakpoint commands attempted"
+
+# If we can't set by name, we'll see and use Address method
+# For now run and see if it works
+
+# Run and wait for breakpoint
+run
+
+# If we reach here without breakpoint hit, something is wrong
+# Log final state
+log "Execution state - if paused at 0x???????? it may be MPISP"
+r
+
+# Dump some context
+rtu
+
+log "=== END OF SCRIPT ==="
+log "To exit: type 'quit' or close this window"
+
+# PAUSE - keep debugger active for inspection
+# (In headless, this may not work as expected)

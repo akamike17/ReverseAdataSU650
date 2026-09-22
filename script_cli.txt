@@ -1,0 +1,55 @@
+# X32DBG CLI CAPTURE SCRIPT
+# This runs inside headless.exe via -cf flag
+# Each line is executed in order
+
+logOpen "C:\SM2258XT_MPTool\log\x32dbg_cli_capture.log"
+echo "=== X32DBG CLI CAPTURE STARTED ==="
+
+# Load the target
+load "C:\SM2258XT_MPTool\SM2258XTMPToolQ0816A.exe"
+echo "Target loaded, waiting for system breakpoint..."
+
+# Wait for entry point
+entry
+echo "At entry point"
+
+# Set DLL load breakpoint for SWPtest
+bpdll "SWPtest.dll"
+echo "DLL breakpoint set for SWPtest.dll"
+
+# Continue execution until SWPtest.dll loads
+run
+echo "Continuing execution..."
+# This will pause when SWPtest.dll is loaded
+
+# When we hit here, SWPtest.dll is loaded
+echo "SWPtest.DLL LOADED - Getting base address"
+
+# Log all modules to find SWPtest base
+mods
+echo "Module list above"
+
+# Try to find and log SWPtest base specifically
+# The log will show it, we'll extract later
+
+# Set breakpoint on the export by name (may fail if symbols not loaded)
+# Try multiple methods
+bp "SWPtest._SMIPtestDownloadMPISP"
+bp "SWPtest:_SMIPtestDownloadMPISP"
+bp "_SMIPtestDownloadMPISP"
+
+echo "Breakpoint attempts made"
+
+# Continue to let MPTool run
+run
+
+# If we get here, either breakpoint hit or process ended
+echo "Execution paused or ended"
+echo "Final register state:"
+r
+
+# Log final state
+logClose
+
+# Keep the debugger alive for inspection
+pause

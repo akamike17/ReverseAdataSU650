@@ -1,0 +1,23 @@
+// x64dbg CLI script for headless MPTool debugging
+// Place in x32dbg\scripts\ or run directly
+
+// Load target
+load "C:\SM2258XT_MPTool\SM2258XTMPToolQ0816A.exe"
+
+// Wait for entry point
+entry
+
+// Set breakpoint at DownloadMPISP
+bp _SMIPtestDownloadMPISP
+
+// Continue
+run
+
+// When breakpoint hits, dump state
+// This happens automatically - we'll get the context
+
+// Save log
+log "C:\SM2258XT_MPTool\log\x32dbg_capture.txt"
+
+// Stop
+stop

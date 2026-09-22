@@ -1,0 +1,35 @@
+# Proprietary binaries - NOT pushed (Silicon Motion copyright)
+*.exe
+*.dll
+*.bin
+*.SET
+*.ini
+Dll/
+Firmware/
+FlashDB/
+MPT/
+
+# Build outputs
+bin/
+obj/
+build/
+ForceROM/bin/
+ForceROM/obj/
+smiflash_build/bin/
+smiflash_build/obj/
+
+# Logs with runtime data
+logs/*.log
+log/
+
+# Large dumps
+capture/*.bin
+*.dump
+
+# OS junk
+Thumbs.db
+Desktop.ini
+
+# Linux File dir contains more proprietary firmware bins
+Linux File/
+mp_0.dll
