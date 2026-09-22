@@ -33,3 +33,7 @@ Desktop.ini
 # Linux File dir contains more proprietary firmware bins
 Linux File/
 mp_0.dll
+tools/relib/__pycache__/
+tests/__pycache__/
+.venv/
+artifacts/
