@@ -1,0 +1,238 @@
+{
+  "0x43277f": {
+    "str_va": "0x4f6bec",
+    "name": "_SMIGetSWPtestDllVersion"
+  },
+  "0x4327c5": {
+    "str_va": "0x4f6c2c",
+    "name": "_SMISetPassThroughType"
+  },
+  "0x432815": {
+    "str_va": "0x4f6c64",
+    "name": "_SMIScanSMIDrive"
+  },
+  "0x432867": {
+    "str_va": "0x4f6c94",
+    "name": "_SMIReadCIDTable"
+  },
+  "0x4328b0": {
+    "str_va": "0x4f6cc4",
+    "name": "_SMIReadFlashID"
+  },
+  "0x4328f9": {
+    "str_va": "0x4f6cf0",
+    "name": "_SMIReadVndrCmd"
+  },
+  "0x432942": {
+    "str_va": "0x4f6d1c",
+    "name": "_SMIWriteVndrCmd"
+  },
+  "0x43298b": {
+    "str_va": "0x4f6d4c",
+    "name": "_SMI_Read_Phy_Page"
+  },
+  "0x4329d4": {
+    "str_va": "0x4f6d7c",
+    "name": "_SMI_Program_Phy_Page"
+  },
+  "0x432a1a": {
+    "str_va": "0x4f6db4",
+    "name": "_SMI_Erase_Phy_block"
+  },
+  "0x432a6f": {
+    "str_va": "0x4f6dec",
+    "name": "_SMIPtestGetFlashId"
+  },
+  "0x432ab8": {
+    "str_va": "0x4f6e20",
+    "name": "_SMIPtestDriveReset"
+  },
+  "0x432b01": {
+    "str_va": "0x4f6e54",
+    "name": "_SMIPtestReadDriveInfo"
+  },
+  "0x432b4a": {
+    "str_va": "0x4f6e8c",
+    "name": "_SMIPtestCheckRunMode"
+  },
+  "0x432b93": {
+    "str_va": "0x4f6ec4",
+    "name": "_SMIPtestDownloadMPISP"
+  },
+  "0x432bdc": {
+    "str_va": "0x4f6efc",
+    "name": "_SMIPtestDumpSysBlock"
+  },
+  "0x432c25": {
+    "str_va": "0x4f6f34",
+    "name": "_SMIPtestSRamTest"
+  },
+  "0x432c6e": {
+    "str_va": "0x4f6f64",
+    "name": "_SMIPtestFlashConnectivityTest"
+  },
+  "0x432cb7": {
+    "str_va": "0x4f6fac",
+    "name": "_SMIPtestSetChCeMap"
+  },
+  "0x432d00": {
+    "str_va": "0x4f6fe0",
+    "name": "_SMIPtestTranDriveSettingTableToParamTable"
+  },
+  "0x432d49": {
+    "str_va": "0x4f7040",
+    "name": "_SMIPtestSetCardMode"
+  },
+  "0x432d92": {
+    "str_va": "0x4f7078",
+    "name": "_SMIPtestTranRTC"
+  },
+  "0x432ddb": {
+    "str_va": "0x4f70a8",
+    "name": "_SMIPtestTranAdj"
+  },
+  "0x432e24": {
+    "str_va": "0x4f70d8",
+    "name": "_SMIPtestProgramDummyAll"
+  },
+  "0x432e6d": {
+    "str_va": "0x4f7118",
+    "name": "_SMIPtestEraseAll"
+  },
+  "0x432eb6": {
+    "str_va": "0x4f7148",
+    "name": "_SMIPtestGetBlockStatus"
+  },
+  "0x432eff": {
+    "str_va": "0x4f7184",
+    "name": "_SMIPtestGetBadBlkCnt"
+  },
+  "0x432f48": {
+    "str_va": "0x4f71bc",
+    "name": "_SMIPtestGenBadBlockBitMap"
+  },
+  "0x432f91": {
+    "str_va": "0x4f71fc",
+    "name": "_SMIPretest_CheckRDT_Report"
+  },
+  "0x432fda": {
+    "str_va": "0x4f7240",
+    "name": "_SMIPtestSetSystemBlockAndBoundaryBlock"
+  },
+  "0x433023": {
+    "str_va": "0x4f729c",
+    "name": "_SMIPtestGenDiffAddrTable"
+  },
+  "0x43306c": {
+    "str_va": "0x4f72dc",
+    "name": "_SMIPtestSetDiskCapacity"
+  },
+  "0x4330b5": {
+    "str_va": "0x4f731c",
+    "name": "_SMIPtestCalculateInfoBlkBufSize"
+  },
+  "0x4330fe": {
+    "str_va": "0x4f736c",
+    "name": "_SMIPtestGenInfoBlkBuf"
+  },
+  "0x433147": {
+    "str_va": "0x4f73a4",
+    "name": "_SMIPtestSaveInfoBlock"
+  },
+  "0x433190": {
+    "str_va": "0x4f73dc",
+    "name": "_SMIPtestCompareCheckSum"
+  },
+  "0x4331d9": {
+    "str_va": "0x4f741c",
+    "name": "_SMIWriteMPInfo"
+  },
+  "0x433222": {
+    "str_va": "0x4f7448",
+    "name": "_SMIReadMPInfo"
+  },
+  "0x43326b": {
+    "str_va": "0x4f7470",
+    "name": "_SMIPtestAnalysisBadBlock"
+  },
+  "0x4332b4": {
+    "str_va": "0x4f74b0",
+    "name": "_SMIPtestDownloadISP"
+  },
+  "0x4332fd": {
+    "str_va": "0x4f74e8",
+    "name": "_SMIPtestSetDriveSerialNumber"
+  },
+  "0x433346": {
+    "str_va": "0x4f7530",
+    "name": "_SMIPtestLoadDgISP"
+  },
+  "0x43338c": {
+    "str_va": "0x4f7560",
+    "name": "_SMIReadIDTable"
+  },
+  "0x43a306": {
+    "str_va": "0x4f788c",
+    "name": "_SMIPtestChkProgTime"
+  },
+  "0x43a4ae": {
+    "str_va": "0x4f78e8",
+    "name": "_SMIPtestGetDumpRuntimeBadStatus"
+  },
+  "0x43a526": {
+    "str_va": "0x4f794c",
+    "name": "_SMIPtestGetDumpTotalBlockStatus"
+  },
+  "0x43a603": {
+    "str_va": "0x4f79cc",
+    "name": "_SMIDistinguishES"
+  },
+  "0x4836b3": {
+    "str_va": "0x5054b4",
+    "name": "InitialUSBChannel"
+  },
+  "0x483717": {
+    "str_va": "0x5054c8",
+    "name": "GetUSBStatus"
+  },
+  "0x4837ba": {
+    "str_va": "0x5054d8",
+    "name": "GetPretestVersion"
+  },
+  "0x483847": {
+    "str_va": "0x5054ec",
+    "name": "RunMyScript"
+  },
+  "0x4838ae": {
+    "str_va": "0x5054f8",
+    "name": "InitApi"
+  },
+  "0x491cc4": {
+    "str_va": null,
+    "name": null
+  },
+  "0x49e20e": {
+    "str_va": null,
+    "name": null
+  },
+  "0x4a9ba0": {
+    "str_va": "0x507bc0",
+    "name": "DisableThreadLibraryCalls"
+  },
+  "0x4b3a75": {
+    "str_va": null,
+    "name": null
+  },
+  "0x4b6378": {
+    "str_va": null,
+    "name": null
+  },
+  "0x4b9998": {
+    "str_va": null,
+    "name": null
+  },
+  "0x4b99d1": {
+    "str_va": null,
+    "name": null
+  }
+}
